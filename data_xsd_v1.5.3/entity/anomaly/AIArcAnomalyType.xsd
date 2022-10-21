@@ -9,39 +9,109 @@
    <xs:documentation>This enumeration presents the different types of anomalies defined by AI-ARC project.</xs:documentation>
   </xs:annotation>
   <xs:restriction base="xs:string">
-   <xs:enumeration value="1" description="HighSpeed">
+   <xs:enumeration value="UnexpectedMovement">
     <xs:annotation>
-     <xs:documentation xml:lang="en">1. DESCRIPTION: HighSpeed</xs:documentation>
+     <xs:documentation xml:lang="en">unexpected movement. DESCRIPTION: Unexpected movement</xs:documentation>
     </xs:annotation>
    </xs:enumeration>
-   <xs:enumeration value="2" description="LowSpeed">
+   <xs:enumeration value="CargoLeaking">
     <xs:annotation>
-     <xs:documentation xml:lang="en">2. DESCRIPTION: LowSpeed</xs:documentation>
+     <xs:documentation xml:lang="en">cargo leaking. DESCRIPTION: Cargo leaking</xs:documentation>
     </xs:annotation>
    </xs:enumeration>
-   <xs:enumeration value="3" description="SpeedChange">
+   <xs:enumeration value="ShiftingOfCargo">
     <xs:annotation>
-     <xs:documentation xml:lang="en">3. DESCRIPTION: SpeedChange</xs:documentation>
+     <xs:documentation xml:lang="en">shifting of cargo. DESCRIPTION: Shifting of cargo</xs:documentation>
     </xs:annotation>
    </xs:enumeration>
-   <xs:enumeration value="4" description="180DegreeMovement">
+   <xs:enumeration value="VesselOutOfTrafficLanes">
     <xs:annotation>
-     <xs:documentation xml:lang="en">4. DESCRIPTION: 180DegreeMovement</xs:documentation>
+     <xs:documentation xml:lang="en">vessel out of traffic lanes. DESCRIPTION: Vessel out of traffic lanes</xs:documentation>
     </xs:annotation>
    </xs:enumeration>
-   <xs:enumeration value="5" description="MovingAway">
+   <xs:enumeration value="VesselWithErraticMovements">
     <xs:annotation>
-     <xs:documentation xml:lang="en">5. DESCRIPTION: MovingAway</xs:documentation>
+     <xs:documentation xml:lang="en">vessel with erratic movements. DESCRIPTION: Vessel with erratic movements</xs:documentation>
     </xs:annotation>
    </xs:enumeration>
-   <xs:enumeration value="6" description="SameHarbour (leaving the same harbour">
+   <xs:enumeration value="StainOfOilSighted">
     <xs:annotation>
-     <xs:documentation xml:lang="en">6. DESCRIPTION: SameHarbour (leaving the same harbour)</xs:documentation>
+     <xs:documentation xml:lang="en">stain of oil sighted. DESCRIPTION: Stain of oil sighted</xs:documentation>
     </xs:annotation>
    </xs:enumeration>
-   <xs:enumeration value="7" description="ConvergentSpeed">
+   <xs:enumeration value="DetecionOfChangesInAISParameters">
     <xs:annotation>
-     <xs:documentation xml:lang="en">7. DESCRIPTION: ConvergentSpeed</xs:documentation>
+     <xs:documentation xml:lang="en">detecion of changes in AIS parameters. DESCRIPTION: Detection of changes in AIS parameters</xs:documentation>
+    </xs:annotation>
+   </xs:enumeration>
+   <xs:enumeration value="PerformingAISSpoofing">
+    <xs:annotation>
+     <xs:documentation xml:lang="en">performing AIS spoofing. DESCRIPTION: Performing AIS spoofing</xs:documentation>
+    </xs:annotation>
+   </xs:enumeration>
+   <xs:enumeration value="WithoutAISTransmission">
+    <xs:annotation>
+     <xs:documentation xml:lang="en">without AIS transmission. DESCRIPTION: Without AIS transmission</xs:documentation>
+    </xs:annotation>
+   </xs:enumeration>
+   <xs:enumeration value="DoNotAnswerOnVHFCh16">
+    <xs:annotation>
+     <xs:documentation xml:lang="en">do not answer on VHF ch16. DESCRIPTION: Do not answer on VHF Ch 16</xs:documentation>
+    </xs:annotation>
+   </xs:enumeration>
+   <xs:enumeration value="Other">
+    <xs:annotation>
+     <xs:documentation xml:lang="en">other. DESCRIPTION: Any other anomaly type not mentioned above</xs:documentation>
+    </xs:annotation>
+   </xs:enumeration>
+   <xs:enumeration value="NonSpecified">
+    <xs:annotation>
+     <xs:documentation xml:lang="en">non-specified. DESCRIPTION: Anomaly type not specified</xs:documentation>
+    </xs:annotation>
+   </xs:enumeration>
+   <xs:enumeration value="HighSpeed">
+    <xs:annotation>
+     <xs:documentation xml:lang="en">high speed. DESCRIPTION: High speed</xs:documentation>
+    </xs:annotation>
+   </xs:enumeration>
+   <xs:enumeration value="LowSpeed">
+    <xs:annotation>
+     <xs:documentation xml:lang="en">low speed. DESCRIPTION: Low speed</xs:documentation>
+    </xs:annotation>
+   </xs:enumeration>
+   <xs:enumeration value="SpeedChange">
+    <xs:annotation>
+     <xs:documentation xml:lang="en">speed change. DESCRIPTION: Speed change</xs:documentation>
+    </xs:annotation>
+   </xs:enumeration>
+   <xs:enumeration value="180DegreeMovement">
+    <xs:annotation>
+     <xs:documentation xml:lang="en">180 degree movement. DESCRIPTION: 180 degree movement</xs:documentation>
+    </xs:annotation>
+   </xs:enumeration>
+   <xs:enumeration value="MovingAway">
+    <xs:annotation>
+     <xs:documentation xml:lang="en">moving away. DESCRIPTION: Moving away</xs:documentation>
+    </xs:annotation>
+   </xs:enumeration>
+   <xs:enumeration value="SameHarbour">
+    <xs:annotation>
+     <xs:documentation xml:lang="en">same harbour. DESCRIPTION: Same harbour (leaving the same harbour)</xs:documentation>
+    </xs:annotation>
+   </xs:enumeration>
+   <xs:enumeration value="ConvergentSpeed">
+    <xs:annotation>
+     <xs:documentation xml:lang="en">convergent speed. DESCRIPTION: Convergent speed</xs:documentation>
+    </xs:annotation>
+   </xs:enumeration>
+   <xs:enumeration value="Grounding">
+    <xs:annotation>
+     <xs:documentation xml:lang="en">grounding. DESCRIPTION: Grounding</xs:documentation>
+    </xs:annotation>
+   </xs:enumeration>
+   <xs:enumeration value="Drift">
+    <xs:annotation>
+     <xs:documentation xml:lang="en">drift. DESCRIPTION: Drift</xs:documentation>
     </xs:annotation>
    </xs:enumeration>
   </xs:restriction>
