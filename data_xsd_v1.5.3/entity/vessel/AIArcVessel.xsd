@@ -22,7 +22,7 @@
   <xs:complexContent>
    <xs:extension base="object:Vehicle">
     <xs:sequence>
-     <xs:element name="AisVesselType" type="vessel:AisVesselType" minOccurs="0"/>
+     <xs:element name="AIArcVesselType" type="vessel:AisVesselType" minOccurs="0"/>
      <xs:element name="Arrangement" type="xs:string" minOccurs="0"/>
      <xs:element name="Beam" type="xs:int" minOccurs="0"/>
      <xs:element name="Breadth" type="xs:int" minOccurs="0"/>
