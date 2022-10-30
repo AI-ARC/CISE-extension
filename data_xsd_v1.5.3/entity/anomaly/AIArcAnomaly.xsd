@@ -16,7 +16,6 @@
   <xs:complexContent>
    <xs:extension base="event:Event">
     <xs:sequence>
-     <xs:element name="AnomalyType" type="anomaly:AnomalyType" minOccurs="0"/>
      <xs:element name="Confidence" type="incident:Confidence" minOccurs="0"/>
      <xs:element name="PriorityLevel" type="incident:PriorityLevel" minOccurs="0"/>
      <xs:element name="AIArcAnomalyType" type="anomaly:AIArcAnomalyType" minOccurs="0"/>
