@@ -5,6 +5,6 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xmlns:surveillance="http://www.cise.eu/datamodel/v1/entity/surveillance/" 
 		elementFormDefault="qualified" attributeFormDefault="qualified">
-	<xs:import namespace="http://www.cise.eu/datamodel/v1/entity/surveillance/" schemaLocation="entity/survillance/AIArcSurveillance.xsd"/>
-	<xs:element name="Surveillance" type="surveillance:AIArcSurveillance"/>
+	<xs:import namespace="http://www.cise.eu/datamodel/v1/entity/surveillance/" schemaLocation="entity/surveillance/AIArcSurveillance.xsd"/>
+	<xs:element name="AIArcSurveillance" type="surveillance:AIArcSurveillance"/>
 </xs:schema>
