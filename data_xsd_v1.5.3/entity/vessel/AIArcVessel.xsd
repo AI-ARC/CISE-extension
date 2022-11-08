@@ -14,7 +14,7 @@
  <xs:include schemaLocation="FishingGearType.xsd"/>
  <xs:include schemaLocation="INFClassType.xsd"/>
  <xs:include schemaLocation="NavigationalStatusType.xsd"/>
- <xs:include schemaLocation="AA_VesselType.xsd"/>
+ <xs:include schemaLocation="AIArcVesselType.xsd"/>
  <xs:complexType name="Vessel">
   <xs:annotation>
    <xs:documentation>The class Vessel is a sub-class of the class Vehicle. A vessel refers to a ship or a boat. Vessel has the same associations and relationships than its parent-classes Vehicle and Object. Thus it can have relationship with Document, Risk, Event, Location, and Agent. It can also be associated with OperationalAsset.</xs:documentation>
@@ -22,7 +22,7 @@
   <xs:complexContent>
    <xs:extension base="object:Vehicle">
     <xs:sequence>
-     <xs:element name="AisVesselType" type="vessel:AisVesselType" minOccurs="0"/>
+     <xs:element name="AIArcVesselType" type="vessel:AIArcVesselType" minOccurs="0"/>
      <xs:element name="Arrangement" type="xs:string" minOccurs="0"/>
      <xs:element name="Beam" type="xs:int" minOccurs="0"/>
      <xs:element name="Breadth" type="xs:int" minOccurs="0"/>
