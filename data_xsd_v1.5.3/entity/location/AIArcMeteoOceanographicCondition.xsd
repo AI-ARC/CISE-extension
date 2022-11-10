@@ -47,7 +47,7 @@
 					<xs:element name="WindCurrentSpeed" type="xs:double"  minOccurs="0" />
 					<xs:element name="IceThickness" type="xs:double"  minOccurs="0" />
 					<xs:element name="IceThicknessConfidence" type="xs:double"  minOccurs="0" />
-					<xs:element name="IceClass" type="iceclasstype:AIArcIceClassType"  minOccurs="0" />
+					<xs:element name="IceClass" type="location:AIArcIceClassType"  minOccurs="0" />
 					<xs:element name="OccurenceConfidence" type="xs:double"  minOccurs="0" />
 					<xs:element name="DateTime" type="period:Period"  minOccurs="0" />
 					<xs:element name="LocationRel"  minOccurs="0">
