@@ -4,8 +4,8 @@
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.cise.eu/datamodel/v1/entity/anomaly/" xmlns:anomaly="http://www.cise.eu/datamodel/v1/entity/anomaly/" xmlns:event="http://www.cise.eu/datamodel/v1/entity/event/" xmlns:incident="http://www.cise.eu/datamodel/v1/entity/incident/">
  <xs:import namespace="http://www.cise.eu/datamodel/v1/entity/event/" schemaLocation="../event/Event.xsd"/>
- <xs:include schemaLocation="../incident/AIArcConfidenceLevelType.xsd"/>
- <xs:include schemaLocation="../incident/AIArcPriorityLevelType.xsd"/>
+ <xs:import namespace="http://www.cise.eu/datamodel/v1/entity/incident/" schemaLocation="../incident/AIArcConfidenceLevelType.xsd"/>
+ <xs:import namespace="http://www.cise.eu/datamodel/v1/entity/incident/" schemaLocation="../incident/AIArcPriorityLevelType.xsd"/>
  <xs:include schemaLocation="AIArcAnomalyType.xsd"/>
  <xs:complexType name="AIArcAnomaly">
   <xs:annotation>
